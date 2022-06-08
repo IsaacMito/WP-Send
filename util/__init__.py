@@ -15,7 +15,7 @@ except ModuleNotFoundError:
     os.system('pip install pyautogui')
     os.system("pip install Pillow")
     os.system("pip install clipboard")
-    os.system("pip install opencv-python")
+    os.system("pip install opencv-python==4.5.5.64")
     os.system("pip install numpy")
     os.system("python -m pip install cx_Oracle --upgrade")
 

@@ -23,7 +23,7 @@ Venha tomar um *delicioso café* conosco e saia daqui com seu presente prontinho
 
 cod_campanha = 9
 
-excel = Excel(r'C:\Users\DEV\Documents\Received Files\AsaSul.xlsx')
+excel = Excel(r'C:\Users\DEV\Documents\Received Files\AsaNorte.xlsx')
 
 send = Send(excel, mensagem, cod_campanha)
 

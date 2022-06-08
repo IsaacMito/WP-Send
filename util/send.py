@@ -29,7 +29,7 @@ class Send:
             nome = self.excel.get_nome(row)
             status = self.excel.get_status(row)
 
-            entity = self.bss.get_entity("619" +celular, self.cod_campanha)
+            entity = self.bss.get_entity("619" + celular, self.cod_campanha)
 
             if status is None and len(entity) == 0:
 

@@ -1,6 +1,7 @@
 import cx_Oracle
 from cx_Oracle import Cursor
 
+
 class Bss:
 
     def __init__(self):
@@ -28,15 +29,10 @@ class Bss:
 
     def create(self, celular, cod_campanha):
 
-        try:
-            cursor: Cursor = self.connection.cursor()
+        cursor: Cursor = self.connection.cursor()
 
-            sql = f"INSERT INTO CLICK.ENVIO_WHATSAPP (COD_CAMPANHA, NUMERO) VALUES({cod_campanha},{celular})"
+        sql = f"INSERT INTO CLICK.ENVIO_WHATSAPP (COD_CAMPANHA, NUMERO) VALUES({cod_campanha},{celular})"
 
-            cursor.execute(sql)
-            self.connection.commit()
-            cursor.close()
-        except cx_Oracle.IntegrityError:
-            pass
-
-
+        cursor.execute(sql)
+        self.connection.commit()
+        cursor.close()

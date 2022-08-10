@@ -46,9 +46,11 @@ class Send:
                     self.excel.set_status('Enviado', row)
                 else:
                     self.excel.set_status('Nao encontrado', row)
+            else:
+                self.excel.set_status('Já enviado', row)
 
-                self.excel.salvar()
-                time.sleep(self.sleep)
+            self.excel.salvar()
+            time.sleep(self.sleep)
 
     def pesquisar(self, celular: str):
 

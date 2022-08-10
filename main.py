@@ -1,24 +1,22 @@
 from util.excel import Excel
 from util.send import Send
 
-mensagem = """❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️❤️
+mensagem = """🚨🚨🚨🚨🚨🚨🚨🚨
+*DIA DOS PAIS*
+*CALCE PERFEITO*
 
-*DIA DOS NAMORADOS*
-*CALCE PERFEITO* 
+Presentes incríveis 
+para o seu pai, veja!
 
-*Presentes a partir* 
-*de R$ 99,99*  😱😍
-
-Várias opções:
-Sapato, Bolsa, Scarpin, 
-Tênis, Bijus e muito mais 
-🥿👠👡👢👞
+*Mocassim* comfort
+*100% couro*
+*R$ 99,99* 
 
 Na Calce você ainda encontra:
-✅ Melhores marcas: Usaflex, Democrata, Piccadilly, Opananken e Skechers;
+✅ Carteiras, sapatos, tênis e muito mais;
 ✅ Suas compras em até 10x sem juros.
 
-Venha tomar um *delicioso café* conosco e saia daqui com seu presente prontinho.
+Venha tomar um delicioso café conosco e saia daqui com seu presente prontinho.
 🎁🍾🥂"""
 
 cod_campanha = 9
